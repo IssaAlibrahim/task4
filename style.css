@@ -1,0 +1,594 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* الناف البداية */
+body {
+  background-position: center;
+  background-image: url(images/backgroud.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+  top: 2;
+  background-color: white;
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 15px;
+  font-size: 16px;
+  position: fixed;
+  z-index: 10000;
+}
+
+nav .logo {
+  padding-left: 40px;
+}
+
+nav .icons,
+.account {
+  display: flex;
+}
+nav .icons li {
+  padding: 10xp 0px;
+  width: 98px;
+  cursor: pointer;
+  position: relative;
+  list-style-type: none;
+}
+
+nav .icons li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #4f4c4c;
+
+}
+
+
+
+nav .account a {
+  display: block;
+  color: #938c8c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 40px;
+  color: #181717;
+}
+
+
+
+nav .account a span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #282828;
+}
+
+nav .language {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #c5bcb3;
+  display: flex;
+}
+
+nav .language a {
+  display: block;
+  color: #938c8c;
+  text-align: center;
+  padding: 14px 3px;
+  text-decoration: none;
+}
+
+nav .language a span {
+  color: #ff8500;
+}
+
+
+.tracking {
+  padding-top:  60px;
+  background-color: #000000;
+  width: 40%;
+  margin-left: 30%;
+  border-radius: 10px;
+  height: 90px;
+}
+
+.tracking ul {
+  display: flex;
+  color: #938c8c;
+  text-decoration: none;  
+}
+
+
+.tracking li {
+  padding: 0xp 0px;
+  list-style-type: none;
+  display: flex;
+  padding-left: 70px;
+  text-align: center;
+
+}
+.tracking li a {
+  text-decoration: none;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #938C8C;}
+
+.tracking li a:hover {
+  color: #FF8500;
+}
+
+
+
+
+
+
+
+/* السيكشن الاول */
+.section-1 {
+  padding-top: 50px;
+}
+
+.section-1 h1 {
+  text-align: center;
+  padding: 15px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+.section-1 .sec-img {
+  position: absolute;
+  width: 95%;
+  padding-left: 160px;
+}
+.section-1 img {
+  float: left;
+  padding: 40px;
+}
+
+
+.section-1 .sec-img .arraw {
+  font-size: large;
+  margin-top: 40px;
+}
+
+/* السيكشن التاني */
+
+.section-2 {
+  margin-top: 15%;
+}
+
+.section-2 .sec-img2 {
+  position: absolute;
+  padding-left: 160px;
+}
+
+.section-2 h1 {
+  text-align: center;
+  padding: 15px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+.section-2 img {
+  float: left;
+  padding: 40px;
+}
+.section-2 .sec-img2 .arraw {
+  font-size: large;
+  margin-top: 40px;
+}
+
+/* السيكشن التالت jobs */
+
+.section-3 {
+  padding-top: 80px;
+  text-align: center;
+  color: #000000;
+  
+}
+.section-3 h1 {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 29px;
+
+color: #000000;
+
+}
+
+.section-3 .start p {
+  padding-top: 15px;
+  align-items: center;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 34px;
+color: #000000;
+}
+
+.section-3 .medium-button {
+  padding-top: 30px;
+}
+
+.section-3 .medium-button button {
+  padding: 2px;
+  background-color: #282828;
+  color: white;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.section-3 .medium-button .imgs-input {
+  display: flex;
+  position: relative;
+}
+
+.section-3 .medium-button .imgs-input input {
+  margin: 40px;
+  margin-left: 25%;
+  background-color: transparent;
+  width: 50%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 3px;
+}
+.section-3 .medium-button .imgs-input img {
+  position: fixed;
+  top: 300px;
+  left: 1100px;
+  padding-left: 10px;
+  position: absolute;
+}
+
+.section-3 .pages {
+  display: flex;
+  margin-left: 560px;
+}
+
+.section-3 .pages li {
+  list-style-type: none;
+  padding: 0px 30px;
+}
+
+.section-3 .pages li a {
+  color: #938c8c;
+  padding: 60px 0px;
+  text-decoration: none;
+}
+
+.section-3 .bigcards {
+    display: flex;
+}
+.section-3 .card {
+    background-color:white;
+    width: 70%;
+    margin: 60px 80px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: left;
+    height: 460px;
+   
+}
+
+
+.section-3 .card .definition {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+.section-3 .card .definition img {
+    width: 46px;
+    height: 46px;
+}
+
+.section-3 .card .definition p {
+position: absolute;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+margin-left: 55px;
+padding-top: 15px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 10px;
+line-height: 24px;
+}
+
+.section-3 .card .definition span{
+   font-size: 10px;
+   margin-left: 200px;
+   margin-top: 20px;
+   color:  #938C8C;
+   
+}
+
+
+.section-3 .card .Type{
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 0px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 28px;
+color: #000000;
+}
+
+
+.section-3 .card .qualifications{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left: 16px;
+    text-align: left;
+    padding: 0px;
+}
+.section-3 .card .qualifications p{
+  color:  #938C8C;
+  font-size: 15px;
+padding: 10px;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+  
+}
+
+.section-3 .card .qualifications span{
+  color: #000000;
+  font-size: 15px;
+font-weight: 400;
+font-size: 12px;
+line-height: 26px;
+}
+
+
+
+.section-3 .card .Timing{
+    font-size: 22px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.section-3 .card .Timing ul li{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+color: #71AA27;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+
+.section-3 .card .Timing p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: #938C8C;
+    
+    
+}
+
+.section-3 .card button{
+    margin: 10px;
+ margin-top: 15px;
+    width: 300px;
+    height: 50px;
+border-radius: 2px;
+background: #282828;
+border-radius: 4px;
+color: #FFFFFF;
+padding: 10px;
+font-size: 20px;
+}
+
+.big-applicants{
+ display: flex;
+}
+
+
+.applicants{
+background-color: white;
+    width: 20%;
+    margin: 50px 100px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+    height: 290px;
+}
+
+.name {
+  display: flex;
+}
+.name img {
+width: 46px;
+height: 46px;
+}
+ .name p {
+  position: absolute;
+  font-family: 'Montserrat';
+font-weight: 500;
+font-size: 16px;
+margin-left: 55px;
+padding-top: 20px;
+ }
+
+
+.applicants h1 {
+  margin-top: 15px;
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size:20px;
+line-height: 28px;
+color: #000000;
+}
+
+.applicants .personal-information .Exp{
+  margin-top: 20px;
+  display: flex;
+}
+
+.applicants .personal-information .Exp p , .City p{
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+
+
+
+
+
+.applicants .personal-information .City{
+  margin-top: 20px;
+  display: flex;
+}
+
+.applicants .personal-information .City .p-2{
+  margin-left: 30px;
+}
+   
+.applicants .personal-information .Exp .p-2{
+  margin-left: 50px;
+}
+   
+
+.button-personal {
+  padding: 10px;
+  background-color: #282828;
+  color: white;
+  width: 250px;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* النهاية */
+
+.footer1{
+
+  background-color: #282828;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 15%;
+  display: block;
+}
+.footer2 {
+  background-color: #282828;
+  color: #ffffff;
+  width: 100%;
+  display: block;
+}
+
+footer .div-footer-dad {
+  display: flex;
+  gap: 107px;
+  justify-content: center;
+}
+
+footer .div_footer1 {
+  padding: 30px;
+  padding-left: 40px;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer .div_footer1 h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+    
+}
+
+footer .div_footer1 p {
+  padding-top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.end-line {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.history {
+  padding: 20px;
+  padding-left: 130px;
+  font-size: 1em;
+}
+
+.line {
+  height: 1px;
+
+  background-color: white;
+
+  width: 950px;
+}
